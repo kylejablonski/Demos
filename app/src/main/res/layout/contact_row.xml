@@ -1,39 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--
+    Copyright 2017 Kyle Jablonski
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<android.support.v7.widget.AppCompatTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="wrap_content"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="8dp"
-    android:paddingBottom="8dp">
-
-    <android.support.v7.widget.AppCompatTextView
-        android:id="@+id/name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="John Wayne"
-        android:textSize="18sp"
-        android:fontFamily="sans-serif-medium"
-        android:textColor="@color/dark_text_primary"/>
-
-    <android.support.v7.widget.AppCompatTextView
-        android:id="@+id/address"
-        android:layout_below="@+id/name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="123 Main Street"
-        android:textSize="15sp"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/dark_text_secondary"/>
-
-    <android.support.v7.widget.AppCompatTextView
-        android:id="@+id/phone"
-        android:layout_below="@+id/address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="415 234 2121"
-        android:textSize="14sp"
-        android:fontFamily="sans-serif"
-        android:textColor="@color/dark_text_secondary"/>
-
-</RelativeLayout>
+    android:id="@+id/textview"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="John Wayne"
+    android:textSize="16sp"
+    android:fontFamily="sans-serif"
+    android:textColor="@color/dark_text_primary"/>
