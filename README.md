@@ -1,3 +1,7 @@
-# ListViewDemo
+# ArrayAdapter ListViewDemo
 
-Purpose for this demo is to show the (old) ViewHolder pattern for ListView. This can still be used in production but the newer RecyclerView is recommended. For simple lists, RecyclerView may be overkill, so if you have something thats not too complex ListView is a good option.
+Purpose of this demo is to show the use of an ArrayAdapter with a custom data type. 
+
+ArrayAdapters are pretty usefull when displaying simple data in a list, this demo displays a bit more complex data.
+
+In a custom object override the toString() method to return the value you want to supply to the TextView in the ArrayAdapter.
