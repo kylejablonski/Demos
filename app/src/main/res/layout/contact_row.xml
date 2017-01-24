@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="John Wayne"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/dark_text_primary"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/address"
+        android:layout_below="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="123 Main Street"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/dark_text_secondary"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/phone"
+        android:layout_below="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="415 234 2121"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/dark_text_secondary"/>
+
+</RelativeLayout>

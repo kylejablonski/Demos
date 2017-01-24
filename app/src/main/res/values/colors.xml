@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#ffd740</color>
+
+
+
+    <!--
+        Dark Text on light backgrounds material design
+        most important text 87% opacity
+        secondary text 54% opacity
+        text hints have 38% opacity
+     -->
+    <color name="dark_text_primary">#dd000000</color>
+    <color name="dark_text_secondary">#89000000</color>
+    <color name="dark_text_disabled">#60000000</color>
+
+
+</resources>
