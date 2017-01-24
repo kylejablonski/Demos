@@ -7,4 +7,4 @@ This repository is meant to be a work in progress. With that said, anything here
 
 First Set of Demo's will be centered around Lists, mainly ListView & RecyclerView and their various applications.
 
-ListViewDemo - Purpose for this demo is to show the (old) ViewHolder pattern for ListView. This can still be used in production but the newer RecyclerView is recommended. For simple lists, RecyclerView may be overkill, so if you have something thats not too complex ListView is a good option.
+[ListViewDemo] (https://github.com/kylejablonski/Demos/tree/sample/ListViewDemo) - Purpose for this demo is to show the (old) ViewHolder pattern for ListView. This can still be used in production but the newer RecyclerView is recommended. For simple lists, RecyclerView may be overkill, so if you have something thats not too complex ListView is a good option.
